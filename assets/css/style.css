@@ -1,6 +1,11 @@
-body {
-    font-family: 'PT Sans', sans-serif;
+/* Pré-configurações */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 /* ====== PERSONALIZANDO HEADER =======  */
@@ -8,18 +13,28 @@ body {
 #container {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid saddlebrown; */
+    align-items: center;
+    background-color: #42B3E5;
 }
 
 header {
-    /* background-color: aqua; */
     height: 120px;
     margin: auto;
 }
 
 #hamburguer {
-    padding: 15px;
     border-radius: 15px;
+    background-color: #42B3E5;
+    padding: 15px;
+    border-radius: 0px 0px 0px 25px;
+}
+
+.fa-bars {
+    color: #FFF;
+}
+
+#logo {
+    width: 200px;
 }
 
 nav ul {
@@ -32,6 +47,20 @@ nav ul {
 #hamburguer,
 .menu_hamburguer_link {
     display: none;
+}
+
+.menu_hamburguer_link {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    background-color: #42B3E5;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    font-weight: 500;
+}
+
+li:nth-child(n+7) .menu_hamburguer_link {
+    border-radius: 0px 0px 0px 25px;
 }
 
 /* ------------------------------------------
@@ -49,7 +78,7 @@ nav ul {
 @media all and (min-width: 768px) and (max-width: 1024px) {}
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-    
+
 
     #container {
         padding: 35px 25px;
@@ -57,13 +86,6 @@ nav ul {
 
     #hamburguer {
         display: block;
-        background-color: #42B3E5;
-        padding: 15px;
-        border-radius: 0px 0px 0px 25px;
-    }
-
-    .fa-bars {
-        color: #FFF;
     }
 
     #nav_menu {
@@ -71,23 +93,13 @@ nav ul {
     }
 
     .menu_hamburguer_link {
-        border-bottom: 2px solid rgb(255, 255, 255);
-        background-color: #42B3E5;
-        color: #FFF;
-        text-decoration: none;
-        text-transform: uppercase;
         display: block;
-        padding: 15px 25px;
-    }
-
-    li:nth-child(n+7) .menu_hamburguer_link {
-        border-radius: 0px 0px 0px 25px;
     }
 
 }
 
 @media all and (max-width: 480px) {
-    
+
 
     #container {
         padding: 35px 25px;
@@ -95,13 +107,6 @@ nav ul {
 
     #hamburguer {
         display: block;
-        background-color: #42B3E5;
-        padding: 15px;
-        border-radius: 0px 0px 0px 25px;
-    }
-
-    .fa-bars {
-        color: #FFF;
     }
 
     #nav_menu {
@@ -109,17 +114,7 @@ nav ul {
     }
 
     .menu_hamburguer_link {
-        border-bottom: 2px solid rgb(255, 255, 255);
-        background-color: #42B3E5;
-        color: #FFF;
-        text-decoration: none;
-        text-transform: uppercase;
         display: block;
-        padding: 15px 25px;
-    }
-
-    li:nth-child(n+7) .menu_hamburguer_link {
-        border-radius: 0px 0px 0px 25px;
     }
 
 }
