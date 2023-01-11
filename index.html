@@ -23,44 +23,46 @@
 
 </head>
 
-<body>
+<body onresize="mudarBordaMenu()">
     <!-- Header do Site -->
     <header>
         <div id="container">
-            <div>
-                <img src="assets/img/logo_medicenter.svg" id="logo" alt="Logo do Site Medicenter">
+            <div id="box">
+                <div>
+                    <img src="assets/img/logo_medicenter.svg" id="logo" alt="Logo do Site Medicenter">
+                </div>
+                <div id="nav_menu">
+                    <nav>
+                        <ul>
+                            <li><a href="" class="header_link selected">Início</a></li>
+                            <li><a href="" class="header_link">Blog</a></li>
+                            <li><a href="" class="header_link">Páginas</a></li>
+                            <li><a href="" class="header_link">Departamentos</a></li>
+                            <li><a href="" class="header_link">Calendário</a></li>
+                            <li><a href="" class="header_link">Galeria</a></li>
+                            <li><a href="" class="header_link">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="hamburguer">
+                    <a href="javascript:void(0)" onclick="acionarMenuHamburguer()">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </a>
+                </div>
             </div>
-            <div id="nav_menu">
+            <div id="menu_hamburguer">
                 <nav>
                     <ul>
-                        <li><a href="" class="header_link selected">Início</a></li>
-                        <li><a href="" class="header_link">Blog</a></li>
-                        <li><a href="" class="header_link">Páginas</a></li>
-                        <li><a href="" class="header_link">Departamentos</a></li>
-                        <li><a href="" class="header_link">Calendário</a></li>
-                        <li><a href="" class="header_link">Galeria</a></li>
-                        <li><a href="" class="header_link">Contato</a></li>
+                        <li><a href="" class="menu_hamburguer_link selected">Início</a></li>
+                        <li><a href="" class="menu_hamburguer_link">Blog</a></li>
+                        <li><a href="" class="menu_hamburguer_link">Páginas</a></li>
+                        <li><a href="" class="menu_hamburguer_link">Departamentos</a></li>
+                        <li><a href="" class="menu_hamburguer_link">Calendário</a></li>
+                        <li><a href="" class="menu_hamburguer_link">Galeria</a></li>
+                        <li><a href="" class="menu_hamburguer_link">Contato</a></li>
                     </ul>
                 </nav>
             </div>
-            <div id="hamburguer">
-                <a href="javascript:void(0)" onclick="acionarMenuHamburguer()">
-                    <i class="fa fa-bars fa-2x"></i>
-                </a>
-            </div>
-        </div>
-        <div id="menu_hamburguer">
-            <nav>
-                <ul>
-                    <li><a href="" class="menu_hamburguer_link selected">Início</a></li>
-                    <li><a href="" class="menu_hamburguer_link">Blog</a></li>
-                    <li><a href="" class="menu_hamburguer_link">Páginas</a></li>
-                    <li><a href="" class="menu_hamburguer_link">Departamentos</a></li>
-                    <li><a href="" class="menu_hamburguer_link">Calendário</a></li>
-                    <li><a href="" class="menu_hamburguer_link">Galeria</a></li>
-                    <li><a href="" class="menu_hamburguer_link">Contato</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
     <script src="assets/js/app.js"></script>

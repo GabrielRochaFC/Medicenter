@@ -10,31 +10,34 @@
 
 /* ====== PERSONALIZANDO HEADER =======  */
 
-#container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #42B3E5;
-}
-
 header {
     height: 120px;
     margin: auto;
 }
 
-#hamburguer {
-    border-radius: 15px;
+#container {
     background-color: #42B3E5;
-    padding: 15px;
-    border-radius: 0px 0px 0px 25px;
+    border-radius: 0px 0px 25px 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.fa-bars {
-    color: #FFF;
+#box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 132px;
+    padding: 35px 25px;
+    width: 1020px;
 }
 
 #logo {
     width: 200px;
+}
+
+#nav_menu ul {
+    display: flex;
 }
 
 nav ul {
@@ -43,24 +46,44 @@ nav ul {
     padding: 0;
 }
 
+#hamburguer {
+    border-radius: 15px;
+    /* background-color: #42B3E5; */
+    padding: 15px;
+    border-radius: 0px 0px 0px 25px;
+}
+
+.fa-bars {
+    color: #FFF;
+}
+
 #menu_hamburguer,
 #hamburguer,
 .menu_hamburguer_link {
     display: none;
 }
 
+.header_link,
+.menu_hamburguer_link {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 500;
+}
+
 .menu_hamburguer_link {
     border-bottom: 3px solid rgb(255, 255, 255);
     background-color: #42B3E5;
+    width: 100vw;
     color: #FFF;
     text-decoration: none;
     text-transform: uppercase;
     padding: 15px 25px;
-    font-weight: 500;
 }
 
 li:nth-child(n+7) .menu_hamburguer_link {
-    border-radius: 0px 0px 0px 25px;
+    border-radius: 0px 0px 25px 25px;
 }
 
 /* ------------------------------------------
@@ -75,14 +98,22 @@ li:nth-child(n+7) .menu_hamburguer_link {
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {}
 
-@media all and (min-width: 768px) and (max-width: 1024px) {}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    #hamburguer {
+        display: block;
+    }
+
+    #nav_menu {
+        display: none;
+    }
+
+    .menu_hamburguer_link {
+        display: block;
+    }
+}
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-
-
-    #container {
-        padding: 35px 25px;
-    }
 
     #hamburguer {
         display: block;
@@ -99,11 +130,6 @@ li:nth-child(n+7) .menu_hamburguer_link {
 }
 
 @media all and (max-width: 480px) {
-
-
-    #container {
-        padding: 35px 25px;
-    }
 
     #hamburguer {
         display: block;
