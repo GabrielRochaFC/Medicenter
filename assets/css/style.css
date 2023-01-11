@@ -1,0 +1,129 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* ====== PERSONALIZANDO HEADER =======  */
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid saddlebrown; */
+}
+
+header {
+    /* background-color: aqua; */
+    height: 120px;
+    margin: auto;
+}
+
+#hamburguer {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu_hamburguer,
+#hamburguer,
+.menu_hamburguer_link {
+    display: none;
+}
+
+/* ------------------------------------------
+ *  Responsive Grid Media Queries - 1280, 1024, 768, 480
+ *   1280-1024   - desktop (default grid)
+ *   1024-768    - tablet landscape
+ *   768-480     - tablet 
+ *   480-less    - phone landscape & smaller
+ * --------------------------------------------
+ */
+@media all and (min-width: 1280px) {}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    header {
+        /* width: 400px; */
+    }
+
+    #container {
+        padding: 35px 25px;
+    }
+
+    #hamburguer {
+        display: block;
+        background-color: #42B3E5;
+        padding: 15px;
+        border-radius: 0px 0px 0px 25px;
+    }
+
+    .fa-bars {
+        color: #FFF;
+    }
+
+    #nav_menu {
+        display: none;
+    }
+
+    .menu_hamburguer_link {
+        border-bottom: 2px solid rgb(255, 255, 255);
+        background-color: #42B3E5;
+        color: #FFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        padding: 15px 25px;
+    }
+
+    li:nth-child(n+7) .menu_hamburguer_link {
+        border-radius: 0px 0px 0px 25px;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    header {
+        /* width: 400px; */
+    }
+
+    #container {
+        padding: 35px 25px;
+    }
+
+    #hamburguer {
+        display: block;
+        background-color: #42B3E5;
+        padding: 15px;
+        border-radius: 0px 0px 0px 25px;
+    }
+
+    .fa-bars {
+        color: #FFF;
+    }
+
+    #nav_menu {
+        display: none;
+    }
+
+    .menu_hamburguer_link {
+        border-bottom: 2px solid rgb(255, 255, 255);
+        background-color: #42B3E5;
+        color: #FFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        padding: 15px 25px;
+    }
+
+    li:nth-child(n+7) .menu_hamburguer_link {
+        border-radius: 0px 0px 0px 25px;
+    }
+
+}

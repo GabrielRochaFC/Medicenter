@@ -1,0 +1,2 @@
+-> container: 990px de width
+-> header: 120px de heigth
