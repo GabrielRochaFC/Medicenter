@@ -1,0 +1,10 @@
+.banner-principal__subtitulo{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0rem;
+    padding: 0rem;
+    text-shadow: var(--sombra);
+}

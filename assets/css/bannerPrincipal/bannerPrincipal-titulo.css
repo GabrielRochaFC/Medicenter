@@ -1,0 +1,11 @@
+.banner-principal__titulo{
+    align-self: flex-end;
+    color: #FFF;
+    font-size: 1.5REM;
+    font-weight: 900;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0rem;
+    padding: 0rem;
+    text-shadow: var(--sombra);
+}

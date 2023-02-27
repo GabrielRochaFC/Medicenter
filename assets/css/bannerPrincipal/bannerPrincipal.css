@@ -1,0 +1,12 @@
+.banner-principal{
+    background: url(../../img/img1.jpg);
+    background-size: cover;
+    background-position: center top;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 5rem;
+    grid-template-rows: auto auto;
+    height: 25rem;
+    padding: 1rem;
+    row-gap: 1rem;
+}

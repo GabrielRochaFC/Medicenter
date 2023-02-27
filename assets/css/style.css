@@ -6,15 +6,19 @@
 @import url(header/header-nav.css); 
 @import url(header/header.css);
 @import url(header/header-li.css);
-
+@import url(main.css);
+@import url(bannerPrincipal/bannerPrincipal-subtitulo.css);
+@import url(bannerPrincipal/bannerPrincipal-titulo.css);
+@import url(bannerPrincipal/bannerPrincipal.css);
 :root{
     --azulClaro: #42B3E5;
     --azulEscuro: #2B4C99;
     --azul: #0079C7;
+    --sombra: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 * {
-    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     scroll-behavior: smooth;
 }
