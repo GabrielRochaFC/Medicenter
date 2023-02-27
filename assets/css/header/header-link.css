@@ -1,0 +1,12 @@
+.header__link{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.813rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #FFF;
+}
+.header__link--selected{
+    border: 0.125rem solid #FFF;
+    border-radius: 0.5rem;
+}

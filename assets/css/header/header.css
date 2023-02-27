@@ -1,0 +1,14 @@
+.header{
+    background-color: var(--azulClaro);
+    border-bottom: 0.375rem solid var(--azul);
+    border-radius: 0rem 0rem 2rem 2rem;
+    display: grid;
+    grid-template-areas: 
+        "logo hamburguer"
+        "nav nav"
+    ;
+    grid-template-columns: 1fr auto;
+    justify-content: space-between;
+    padding: 2rem;
+    grid-row-gap: 1rrem;
+}

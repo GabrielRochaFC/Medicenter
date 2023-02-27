@@ -16,57 +16,32 @@
     <!-- Fonte do site  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body onresize="mudarBordaMenu()">
-    <!-- Header do Site -->
-    <header>
-        <div id="container">
-            <div id="box">
-                <div>
-                    <img src="assets/img/logo_medicenter.svg" id="logo" alt="Logo do Site Medicenter">
-                </div>
-                <div id="nav_menu">
-                    <nav>
-                        <ul>
-                            <li><a href="" class="header_link selected">Início</a></li>
-                            <li><a href="" class="header_link">Blog</a></li>
-                            <li><a href="" class="header_link">Páginas</a></li>
-                            <li><a href="" class="header_link">Departamentos</a></li>
-                            <li><a href="" class="header_link">Calendário</a></li>
-                            <li><a href="" class="header_link">Galeria</a></li>
-                            <li><a href="" class="header_link">Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div id="hamburguer">
-                    <a href="javascript:void(0)" onclick="acionarMenuHamburguer()">
-                        <i class="fa fa-bars fa-2x"></i>
-                    </a>
-                </div>
-            </div>
-            <div id="menu_hamburguer">
-                <nav>
-                    <ul>
-                        <li><a href="" class="menu_hamburguer_link selected">Início</a></li>
-                        <li><a href="" class="menu_hamburguer_link">Blog</a></li>
-                        <li><a href="" class="menu_hamburguer_link">Páginas</a></li>
-                        <li><a href="" class="menu_hamburguer_link">Departamentos</a></li>
-                        <li><a href="" class="menu_hamburguer_link">Calendário</a></li>
-                        <li><a href="" class="menu_hamburguer_link">Galeria</a></li>
-                        <li><a href="" class="menu_hamburguer_link">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+<body>
+    <!-- MENU DO MEDICENTER -->
+    <header class="header">
+        <img src="/assets/img/logo_medicenter.svg" alt="Logo Medicenter" class="header__imagem">
+        <i class="fa fa-bars header__hamburguer" aria-hidden="true" onclick="mudaEstadoMenu()"></i>
+        <nav class="header__nav header__nav--desativado">
+            <ul class="header__lista">
+                <li class="header__li"><a href="#" class="header__link header__link--selected">Home</a></li>
+                <li class="header__li"><a href="#" class="header__link">Blog</a></li>
+                <li class="header__li"><a href="#" class="header__link">Páginas</a></li>
+                <li class="header__li"><a href="#" class="header__link">Departamentos</a></li>
+                <li class="header__li"><a href="#" class="header__link">Galeria</a></li>
+                <li class="header__li"><a href="#" class="header__link">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <script src="assets/js/app.js"></script>
 
+    
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,5 @@
+.header__imagem{
+    width: 10.16rem;
+    height: 2rem;
+    grid-area: logo;
+}

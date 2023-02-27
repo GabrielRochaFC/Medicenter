@@ -1,146 +1,20 @@
 /* Pré-configurações */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url(header/header-hamburguer.css); 
+@import url(header/header-imagem.css); 
+@import url(header/header-link.css); 
+@import url(header/header-lista.css); 
+@import url(header/header-nav.css); 
+@import url(header/header.css);
+@import url(header/header-li.css);
 
+:root{
+    --azulClaro: #42B3E5;
+    --azulEscuro: #2B4C99;
+    --azul: #0079C7;
+}
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     font-size: 16px;
     scroll-behavior: smooth;
-}
-
-/* ====== PERSONALIZANDO HEADER =======  */
-
-header {
-    height: 120px;
-    margin: auto;
-}
-
-#container {
-    background-color: #42B3E5;
-    border-radius: 0px 0px 25px 25px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 132px;
-    padding: 35px 25px;
-    width: 1020px;
-}
-
-#logo {
-    width: 200px;
-}
-
-#nav_menu ul {
-    display: flex;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#hamburguer {
-    border-radius: 15px;
-    /* background-color: #42B3E5; */
-    padding: 15px;
-    border-radius: 0px 0px 0px 25px;
-}
-
-.fa-bars {
-    color: #FFF;
-}
-
-#menu_hamburguer,
-#hamburguer,
-.menu_hamburguer_link {
-    display: none;
-}
-
-.header_link,
-.menu_hamburguer_link {
-    color: #FFF;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 15px;
-    font-weight: 500;
-}
-
-.menu_hamburguer_link {
-    border-bottom: 3px solid rgb(255, 255, 255);
-    background-color: #42B3E5;
-    width: 100vw;
-    color: #FFF;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 15px 25px;
-}
-
-li:nth-child(n+7) .menu_hamburguer_link {
-    border-radius: 0px 0px 25px 25px;
-}
-
-/* ------------------------------------------
- *  Responsive Grid Media Queries - 1280, 1024, 768, 480
- *   1280-1024   - desktop (default grid)
- *   1024-768    - tablet landscape
- *   768-480     - tablet 
- *   480-less    - phone landscape & smaller
- * --------------------------------------------
- */
-@media all and (min-width: 1280px) {}
-
-@media all and (min-width: 1024px) and (max-width: 1280px) {}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-
-    #hamburguer {
-        display: block;
-    }
-
-    #nav_menu {
-        display: none;
-    }
-
-    .menu_hamburguer_link {
-        display: block;
-    }
-}
-
-@media all and (min-width: 480px) and (max-width: 768px) {
-
-    #hamburguer {
-        display: block;
-    }
-
-    #nav_menu {
-        display: none;
-    }
-
-    .menu_hamburguer_link {
-        display: block;
-    }
-
-}
-
-@media all and (max-width: 480px) {
-
-    #hamburguer {
-        display: block;
-    }
-
-    #nav_menu {
-        display: none;
-    }
-
-    .menu_hamburguer_link {
-        display: block;
-    }
-
 }

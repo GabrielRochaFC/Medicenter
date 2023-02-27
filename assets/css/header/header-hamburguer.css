@@ -1,0 +1,7 @@
+.header__hamburguer{
+    grid-area: hamburguer;
+}
+.fa-bars::before{
+    color: #FFF;
+    font-size: 2rem;
+}

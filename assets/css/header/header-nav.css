@@ -1,0 +1,6 @@
+.header__nav{
+    grid-area: nav;
+}
+.header__nav--desativado{
+    display: none;
+}
