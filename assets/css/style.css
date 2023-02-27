@@ -10,6 +10,13 @@
 @import url(bannerPrincipal/bannerPrincipal-subtitulo.css);
 @import url(bannerPrincipal/bannerPrincipal-titulo.css);
 @import url(bannerPrincipal/bannerPrincipal.css);
+@import url(cards/card-botao.css);
+@import url(cards/card-lista.css);
+@import url(cards/card-paragrafo.css);
+@import url(cards/card-titulo.css);
+@import url(cards/card-topico.css);
+@import url(cards/card.css);
+@import url(cards/cards.css);
 :root{
     --azulClaro: #42B3E5;
     --azulEscuro: #2B4C99;

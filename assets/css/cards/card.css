@@ -1,0 +1,17 @@
+.card{
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #FFF;
+    display: grid;
+    row-gap: 1rem;
+}
+
+.card--azul-claro{
+    background-color: var(--azulClaro);
+}
+.card--azul{
+    background-color: var(--azul);
+}
+.card--azul-escuro{
+    background-color: var(--azulEscuro);
+}

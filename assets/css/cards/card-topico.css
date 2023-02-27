@@ -1,0 +1,7 @@
+.card__topico{
+    border-bottom: 2px solid #FFF;
+    line-height: 1.625rem;
+    padding: 0.5rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}

@@ -1,7 +1,7 @@
 .banner-principal{
-    background: url(../../img/img1.jpg);
+    background: url(../../img/img2.jpg);
     background-size: cover;
-    background-position: center top;
+    background-position: center;
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr 5rem;

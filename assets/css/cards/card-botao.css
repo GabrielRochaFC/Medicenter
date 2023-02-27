@@ -1,0 +1,14 @@
+.card__botao{
+    background: rgba(0, 0, 0, 0);
+    padding: 0.5rem 1rem;
+    border: 0.125rem solid #FFF;
+    border-radius: 0.5rem;
+    width: fit-content;
+    color: #FFF;
+    line-height: 1.25rem;
+    font-weight: 600;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 0.5rem;
+}
