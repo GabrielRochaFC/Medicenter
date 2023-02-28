@@ -21,6 +21,17 @@
 @import url(departamento/departamento-titulo.css);
 @import url(departamento/departamento.css);
 @import url(departamento/departamento-imagens.css);
+@import url(noticias/noticias.css); 
+@import url(noticias/noticia-conteudo.css); 
+@import url(noticias/noticia-data.css); 
+@import url(noticias/noticia-imagem.css); 
+@import url(noticias/noticia-notificacao.css); 
+@import url(noticias/noticia-paragrafo.css); 
+@import url(noticias/noticia-titulo.css); 
+@import url(noticias/noticia-topo.css); 
+@import url(noticias/noticia.css); 
+@import url(noticias/noticias-titulo.css); 
+
 :root{
     --azulClaro: #42B3E5;
     --azulEscuro: #2B4C99;

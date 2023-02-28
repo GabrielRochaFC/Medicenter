@@ -1,0 +1,8 @@
+.noticia{
+    border: 0.125rem solid #d4d4d4;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    row-gap: 1rem;
+    justify-items: center;
+}

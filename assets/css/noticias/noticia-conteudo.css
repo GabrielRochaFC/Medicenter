@@ -1,0 +1,4 @@
+.noticia__conteudo{
+    display: grid;
+    row-gap: 0.5rem;
+}

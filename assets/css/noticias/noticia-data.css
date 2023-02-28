@@ -1,0 +1,7 @@
+.noticia__data{
+    background: var(--azulEscuro);
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    color: #fff;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+}
