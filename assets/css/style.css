@@ -17,6 +17,10 @@
 @import url(cards/card-topico.css);
 @import url(cards/card.css);
 @import url(cards/cards.css);
+@import url(departamento/departamento-imagem.css);
+@import url(departamento/departamento-titulo.css);
+@import url(departamento/departamento.css);
+@import url(departamento/departamento-imagens.css);
 :root{
     --azulClaro: #42B3E5;
     --azulEscuro: #2B4C99;

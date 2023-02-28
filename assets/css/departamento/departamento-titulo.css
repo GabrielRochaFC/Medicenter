@@ -1,0 +1,17 @@
+.departamento__titulo{
+    grid-column: span 2;
+    font-weight: 900;
+    font-size: 2.25rem;
+    position: relative;
+    margin: 0rem;
+    margin-bottom: 2rem;
+}
+.departamento__titulo:before{
+    content: "";
+    background: var(--azul);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 4px;
+    width: 50px;  
+}

@@ -1,0 +1,7 @@
+.departamento__imagens{
+    display: grid;
+    grid-column: span 2;
+    row-gap: 1rem;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
