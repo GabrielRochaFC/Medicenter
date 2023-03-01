@@ -1,0 +1,8 @@
+.noticia__imagem{
+    width: 19.188rem;
+    border-radius: 1rem;
+    height: 19rem;
+    align-self: center;
+    object-fit: cover;
+    object-position: center;
+}

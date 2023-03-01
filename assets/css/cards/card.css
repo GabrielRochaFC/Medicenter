@@ -15,3 +15,11 @@
 .card--azul-escuro{
     background-color: var(--azulEscuro);
 }
+
+.card--footer{
+    margin-bottom: 1rem;
+}
+
+.card--footer:last-child{
+    margin-bottom: 0rem;
+}

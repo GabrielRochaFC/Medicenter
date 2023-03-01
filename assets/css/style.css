@@ -30,7 +30,8 @@
 @import url(noticias/noticia-titulo.css); 
 @import url(noticias/noticia-topo.css); 
 @import url(noticias/noticia.css); 
-@import url(noticias/noticias-titulo.css); 
+@import url(noticias/noticias-titulo.css);
+@import url(footer.css);
 
 :root{
     --azulClaro: #42B3E5;
