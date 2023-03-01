@@ -32,6 +32,14 @@
 @import url(noticias/noticia.css); 
 @import url(noticias/noticias-titulo.css);
 @import url(footer.css);
+@import url(footer-secoes/footer-secoes.css); 
+@import url(footer-secoes/secao-conteudo.css); 
+@import url(footer-secoes/secao-data.css); 
+@import url(footer-secoes/secao-item.css); 
+@import url(footer-secoes/secao-lista.css); 
+@import url(footer-secoes/secao-paragrafo.css); 
+@import url(footer-secoes/secao-titulo.css); 
+@import url(footer-secoes/secao.css);
 
 :root{
     --azulClaro: #42B3E5;

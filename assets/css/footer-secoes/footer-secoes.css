@@ -1,0 +1,4 @@
+.footer__secoes{
+    display: grid;
+    row-gap: 2rem;
+}

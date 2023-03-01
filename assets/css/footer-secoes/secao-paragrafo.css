@@ -1,0 +1,7 @@
+.secao__paragrafo{
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.secao__paragrafo:last-child{
+    margin-bottom: 0rem;
+}

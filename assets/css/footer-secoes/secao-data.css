@@ -1,0 +1,6 @@
+.secao__data{
+    display: block;
+    color: var(--azulClaro);
+    font-size: 0.75rem;
+    font-weight: 400;
+}

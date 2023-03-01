@@ -1,0 +1,16 @@
+.secao__titulo{
+    font-weight: 600;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 0rem;
+    margin-bottom: 2rem;
+}
+.secao__titulo:before{
+    content: "";
+    background: var(--azul);
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 4px;
+    width: 50px;  
+}

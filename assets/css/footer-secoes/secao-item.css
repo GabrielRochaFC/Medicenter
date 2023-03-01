@@ -1,0 +1,6 @@
+.secao__item{
+    margin-bottom: 1rem;
+}
+.secao__item:last-child{
+    margin-bottom: 0rem;
+}

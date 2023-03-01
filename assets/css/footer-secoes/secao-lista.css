@@ -1,0 +1,6 @@
+.secao__lista{
+    list-style-type: '➞  ';
+    margin: 0rem;
+    padding: 0rem 2rem;
+    display: grid;
+}
