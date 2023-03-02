@@ -4,3 +4,11 @@
     row-gap: 2rem;
     padding-top: 7.375rem;
 }
+
+@media screen and (min-width: 1200px)  {
+    .main{
+        padding: 1rem 1.5rem;
+        padding-top: 8.125rem;
+        row-gap: 4rem;
+    }
+}

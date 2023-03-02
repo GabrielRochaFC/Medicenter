@@ -9,3 +9,10 @@
     padding: 0rem;
     text-shadow: var(--sombra);
 }
+
+@media screen and (min-width: 1200px)  {
+    .banner-principal__titulo{
+        font-size: 4rem;
+        line-height: 4.875rem;
+    }
+}

@@ -8,3 +8,10 @@
     padding: 0rem;
     text-shadow: var(--sombra);
 }
+
+@media screen and (min-width: 1200px)  {
+    .banner-principal__subtitulo{
+        font-size: 2rem;
+        line-height: 2.4375rem;
+    }
+}
