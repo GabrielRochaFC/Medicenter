@@ -2,3 +2,10 @@
     display: grid;
     row-gap: 0.5rem;
 }
+
+@media screen and (min-width: 1200px) {
+    .noticia__conteudo{
+        height: 10.6563rem;
+        overflow: hidden;
+    }
+}

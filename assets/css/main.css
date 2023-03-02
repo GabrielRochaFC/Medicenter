@@ -10,5 +10,12 @@
         padding: 1rem 1.5rem;
         padding-top: 8.125rem;
         row-gap: 4rem;
+        grid-template-areas: 
+        "banner banner"
+        "cards cards"
+        "noticias departamento"
+        ;
+        grid-template-columns: 1fr auto;
+        column-gap: 2rem;
     }
 }

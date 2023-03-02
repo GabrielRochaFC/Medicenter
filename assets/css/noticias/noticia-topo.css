@@ -4,3 +4,10 @@
     grid-template-columns: auto 1fr;
     column-gap: 0.5rem;
 }
+
+
+@media screen and (min-width: 1200px)  {
+    .noticia__topo{
+        height: fit-content;
+    }
+}

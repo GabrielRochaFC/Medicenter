@@ -1,4 +1,13 @@
 .departamento__imagem{
     background-color: var(--azulClaro);
     border-radius: 1rem;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+@media screen and (min-width: 1200px)  {
+    .departamento__imagem{
+        width: 9.375rem;
+        height: 9.375rem;
+    }
 }
