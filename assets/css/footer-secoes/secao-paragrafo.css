@@ -5,3 +5,9 @@
 .secao__paragrafo:last-child{
     margin-bottom: 0rem;
 }
+
+@media screen and (min-width:1200px) {
+    .secao__paragrafo--principal{
+        grid-column: span 2;
+    }
+}

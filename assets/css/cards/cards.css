@@ -9,4 +9,8 @@
         column-gap: 2rem;
         grid-area: cards;
     }
+    .cards--footer{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+    }
 }
