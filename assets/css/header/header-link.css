@@ -10,3 +10,9 @@
     border: 0.125rem solid #FFF;
     border-radius: 0.5rem;
 }
+
+@media screen and (min-width: 1200px) {
+    .header__link:hover{
+        border-bottom: 2px solid #FFF;
+    }
+}

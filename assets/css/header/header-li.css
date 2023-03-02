@@ -1,3 +1,9 @@
 .header__li{
     padding: 0.5rem 1rem;
 }
+
+@media screen and (min-width: 1200px)  {
+    .header__li{
+        padding: 0rem;
+    }
+}

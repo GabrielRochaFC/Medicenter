@@ -4,3 +4,9 @@
 .header__nav--desativado{
     display: none;
 }
+
+@media screen and (min-width: 1200px)  {
+    .header__nav--desativado{
+        display:inline;
+    }
+}

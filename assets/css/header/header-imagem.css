@@ -3,3 +3,11 @@
     height: 2rem;
     grid-area: logo;
 }
+
+@media screen and (min-width: 1200px)  {
+    .header__imagem{
+        width: 13.8125rem;
+        height: 2.75rem;
+        margin-right: 1rem;
+    }
+}

@@ -3,3 +3,13 @@
     padding: 0rem;
     text-align: center;
 }
+
+@media screen and (min-width: 1200px)  {
+    .header__lista{
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        column-gap: 0.5rem;
+        margin: 0rem;
+        justify-content: end;
+    }
+}
