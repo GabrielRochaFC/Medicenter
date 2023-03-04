@@ -11,7 +11,7 @@ Este é um projeto de website desenvolvido com o objetivo de aprimorar habilidad
 Acesse o site através do link: https://gabrielrochafc.github.io/Medicenter/
 
 ## Screenshots 📷
-<img src="https://imgur.com/Dx5ceQE" alt="imagem do site">
+![mobile](https://user-images.githubusercontent.com/117742200/222860952-ea756311-e4cf-4194-ba65-f7bfeeb36b09.png)
 
 ## Notas 📝
 - Este projeto é apenas para fins educacionais e não deve ser utilizado em ambientes de produção.
