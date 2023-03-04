@@ -18,4 +18,4 @@ Acesse o site através do link: https://gabrielrochafc.github.io/Medicenter/
 ## Notas 📝
 - Este projeto é apenas para fins educacionais e não deve ser utilizado em ambientes de produção.
 - Contribuições e sugestões são sempre bem-vindas!
-
+- [Original Medicenter Template](https://themeforest.net/item/medicenter-responsive-medical-health-template/4000598)
